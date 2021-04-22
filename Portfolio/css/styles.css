@@ -1,0 +1,262 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Global*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: pacifico, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+}
+
+h3, h4, h5,li, a {
+    margin: 0;
+    font-family: acuta, serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h4, a {
+    padding-bottom: 15px;
+    color: white;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+li {
+    padding: 3px 20px;
+    margin: 0;
+}
+
+section {
+    margin: 0;
+}
+
+.column {
+    background: #F4D3CC;
+    color: black;
+    display: flex;
+}
+
+.column section {
+    flex: 1 1 600px;
+    margin: 0;
+}
+
+/*Introduction*/
+.introduction {
+    background: #3C5D79;
+    color: white;
+}
+
+.introduction h1 {
+    font-size: 40px;
+}
+
+.introduction h3 {
+    padding: 0 0 20px;
+    text-align: center;
+}
+
+/*Working Experience*/
+.working {
+    background: #F4D3CC;
+    color: black;
+}
+
+.working_experience {
+    background-image: url(../images/working.png);
+    background-size: cover;
+    background-position: left;
+    overflow: hidden;
+    margin: 0;
+}
+
+.working_content {
+    margin: 30px 300px;
+    background-color: #ffffff;
+    opacity: 0.85;
+    padding-bottom: 30px;
+}
+
+/*Education*/
+.education_content h1 {
+    padding-bottom: 0;
+}
+
+.education_content h5 {
+    padding: 15px 0;
+    text-align: center;
+}
+
+/*Certificates*/
+.certificates h5 {
+    padding: 10px 0;
+}
+
+.certificates li {
+    padding: 3px 110px;
+    text-align: left;
+    margin-bottom: .5rem;
+}
+
+.certificates a {
+    display: inline-block;
+    color: black;
+}
+
+/*Skills*/
+.skills {
+    padding-bottom: 20px;
+}
+
+.skills h3 {
+    text-align: center;
+}
+
+/*Languages*/
+
+/* References */
+.references {
+    background-image: url(../images/school.png);
+    background-size: cover;
+    background-position: left;
+    overflow: hidden;
+    margin: 0;
+    color: black;
+}
+
+.references_content {
+    margin: 30px 300px;
+    background-color: #ffffff;
+    opacity: 0.85;
+    padding-bottom: 30px;
+}
+
+.references h3, h5 {
+    padding-bottom: 10px;
+}
+
+/*Media screen*/
+@media screen and (min-width: 0) and (max-width: 320px) {
+    h3, h4, h5, a {
+        font-size: 15px;
+    }
+
+    .introduction h3 {
+        padding: 0 20px 20px;
+        text-align: justify;
+    }
+
+    .working_content, .references_content {
+        margin: 20px 20px;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column section {
+        flex: 0 1 100px;
+        margin: 0;
+    }
+
+    .education_content h5 {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .certificates li {
+        padding: 0;
+        text-align: center;
+        margin-bottom: .5rem;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 600px) {
+    .working_content, .references_content {
+        margin: 20px 20px;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column section {
+        flex: 0 1 100px;
+        margin: 0;
+    }
+
+    .education_content h5 {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .certificates li {
+        padding: 10px 0;
+        text-align: center;
+        margin-bottom: .5rem;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 940px) {
+    .working_content, .references_content {
+        margin: 20px 20px;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column section {
+        flex: 0 1 100px;
+        margin: 0;
+    }
+
+    .education_content h5 {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .certificates li {
+        padding: 10px;
+        text-align: center;
+        margin-bottom: .5rem;
+    }
+}
+
+@media screen  and (min-width: 941px) and (max-width: 1024px) {
+    .working_content, .references_content {
+        margin: 20px 100px;
+    }
+
+
+}
