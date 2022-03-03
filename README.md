@@ -5,3 +5,7 @@
 <h3> Link for GitHub Pages :label:</h3>
 
   - [Click here to view Github Pages](https://meewai.github.io/LinkedInLearning_CSS-Essential-Training/)
+
+<h3>Credential :octocat:</h3>
+
+  - [Click here to see credential](https://meewai.github.io/LinkedInLearning_CSS-Essential-Training/LinkedIn_Learning_Certificate/LinkedIn_Learning_CSS.pdf)
